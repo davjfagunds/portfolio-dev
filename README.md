@@ -12,4 +12,4 @@ Este repositório contém atividades de programação em Python realizadas:
 - Python 3
 
 ## Autor
-Seu Nome
+Davi Fagundes Tonhá
