@@ -49,4 +49,6 @@ while True:
         letras_acertadas = ''
         numero_tentativas = 0
 
-#ssssss teste 222
+#alteração feita para eu ver depois##
+
+print("Vamo ver se funciona")
