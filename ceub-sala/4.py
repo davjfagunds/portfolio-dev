@@ -43,7 +43,8 @@ print(f"O numeros maiores que 10 é {lista_10}")
 por = ((len(lista_10)*100)/(len(lista)))
 print(f"A porcentagem dos numeros maiores que dez da lista é: {por}")
 
-
+lista.remove(30)
+print(lista)
 
 
     
