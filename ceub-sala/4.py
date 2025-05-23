@@ -14,7 +14,7 @@ print()
 print(f"Quantidade: {len(lista)}")
 print(f"Soma dos valores: {sum(lista)}")
 print(f"O maior valor é {max(lista)}")
-print(f"O maior valor é {min(lista)}")
+print(f"O menor valor é {min(lista)}")
 
 if 10 in lista:
     print(f"Pesquisa: (10) está na posiçao: {lista.index(10)}")
@@ -24,7 +24,9 @@ a = sorted(lista)
 print(f"Ordem crescente da lista: {a}")
 
 lista.insert(1,30)
-print(lista)
+print("Adicionando o numero 33", lista)
+
+lista.sort()
 
 b = list(reversed(lista))
 
@@ -32,7 +34,7 @@ print(f"Ordem decrescente da lista: {b}")
 if 0 in lista:
     lista.remove(0)
 media = sum(lista)/(len(lista))
-print(f"{media:.3f}")
+print(f"A media aritmetica é {media:.3f}")
 
 for item in lista:
     
