@@ -14,9 +14,24 @@ lista = [10, 20, 30, 40]
 # del lista[2]
 # print(lista)
 # print(lista[2])
+
 lista.append(50) # adiciona 50 no final da lista
 lista.pop() # remove o último elemento da lista
 lista.append(60)
 lista.append(70)
+lista.insert(2,'X')# insere um valor na lista em um indice
 ultimo_valor = lista.pop(3)
+
 print(lista, 'Removido,', ultimo_valor)
+print()
+for item in lista:
+    print(item)
+
+print(60 in lista)
+
+print(lista.index(20)) #mostra o indice do numero na lista
+
+lista[0] = "nome"
+
+print(lista)
+print(lista.count(70))
